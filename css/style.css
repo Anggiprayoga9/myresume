@@ -14,6 +14,7 @@ body {
   color: #4e4e4e;
 }
 
+
 h1,
 h2,
 h3,
@@ -127,6 +128,9 @@ a:hover {
 
 .sect-pt4 {
   padding-top: 4rem;
+}
+.sect-pt5 {
+  padding-top: 5rem;
 }
 
 .sect-mt4 {
@@ -698,6 +702,151 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
+}
+/*--------------------------------------------------------------
+# Skill
+--------------------------------------------------------------*/
+.tools_expert {
+  box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+  padding: 50px 35px; }
+  .tools_expert h3 {
+    color: #222222;
+    font-size: 21px;
+    text-transform: uppercase; }
+  .tools_expert .skill_main .skill_item {
+    margin-bottom: 18px; }
+    .tools_expert .skill_main .skill_item:last-child {
+      margin-bottom: 0px; }
+    .tools_expert .skill_main .skill_item h4 {
+      text-align: right;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+      font-weight: normal;
+      color: #777777;
+      margin-bottom: 15px; }
+    .tools_expert .skill_main .skill_item .progress {
+      height: 20px;
+      border-radius: 10px;
+      background: transparent;
+      border: 1px solid #eeeeee;
+      padding-left: 5px;
+      padding-right: 5px;
+      box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2); }
+      .tools_expert .skill_main .skill_item .progress .progress-bar {
+        width: 0%;
+        transition: width .6s ease;
+        height: 10px;
+        border-radius: 5px;
+        vertical-align: middle;
+        align-self: center;
+        background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); }
+
+        /*--------------------------------------------------------------
+# My Hobby
+--------------------------------------------------------------*/
+.hobby .hobby-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+.hobby .hobby-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+.hobby .hobby-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2f00ff;
+  margin-bottom: 10px;
+}
+.hobby .hobby-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hobby .hobby-item ul {
+  padding-left: 20px;
+}
+.hobby .hobby-item ul li {
+  padding-bottom: 10px;
+}
+.hobby .hobby-item:last-child {
+  padding-bottom: 0;
+}
+.hobby .hobby-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+/*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2f00ff;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
 }
 
 /*======================================
